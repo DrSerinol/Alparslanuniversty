@@ -1,0 +1,18 @@
+package dongüü;
+
+import java.util.Scanner;
+
+public class for4 {
+	public static void main(String [] args) 
+	{
+	Scanner giris=new Scanner (System.in);
+	System.out.println("N gir: ");
+	int n = giris.nextInt();
+	System.out.println("1'den n'e kadar çift sayılar:");
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 == 0) { // Sayı çift mi?
+            System.out.print(i + " ");
+        }
+    }
+}
+}
