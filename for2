@@ -1,0 +1,27 @@
+package dongüü;
+import java.util.Scanner;
+
+public class for2 
+{
+public static void main(String [] args) 
+{
+Scanner giris=new Scanner (System.in);
+System.out.println("N gir: ");
+int n = giris.nextInt();
+
+
+int t=0;
+
+
+for(int i=1; i<=n ;i++)
+	t+=i;
+
+{
+System.out.println("1'den " +n+ " 'e kadar olan sayıların toplamı: " + t);
+}
+
+
+
+}
+
+}
