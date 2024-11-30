@@ -1,0 +1,26 @@
+package dongüü;
+
+import java.util.Scanner;
+
+public class for5 {
+	public static void main(String [] args) 
+	{
+
+	
+	Scanner giris = new Scanner(System.in);
+    
+    System.out.print("Faktöriyelini hesaplamak istediğiniz sayıyı girin: ");
+    int sayi = giris.nextInt();
+    int t = 1;
+
+    for (int i = 1; i <= sayi; i++) {
+        t *= i;
+    }
+
+    System.out.println(sayi + "! = " + t);
+    
+    giris.close();
+
+
+}
+}
