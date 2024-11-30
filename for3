@@ -1,0 +1,21 @@
+package dongüü;
+
+import java.util.Scanner;
+
+public class for3
+{
+	public static void main(String [] args) 
+	{
+	Scanner giris=new Scanner (System.in);
+	System.out.println("N gir: ");
+	int n = giris.nextInt();
+
+
+	 for (int i = 1; i <= n; i++) {
+         for (int j = 1; j <= i; j++) {
+             System.out.print("* ");
+         }
+         System.out.println();
+     }
+ }
+}
